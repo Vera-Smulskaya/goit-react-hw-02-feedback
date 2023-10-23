@@ -3,6 +3,6 @@ import css from './Statistics.module.css';
 
 export default class Statistics extends Component {
   render() {
-    return <div>Statistics</div>;
+    return <div></div>;
   }
 }

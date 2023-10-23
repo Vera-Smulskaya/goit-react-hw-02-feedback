@@ -13,7 +13,10 @@ export class App extends Component {
   render() {
     return (
       <>
-        <Section title="">
+        <Section title="Please leave feedback">
+          <FeedbackOptions options={3} onLeaveFeedback={3} />
+        </Section>
+        <Section title="Statistics">
           <Statistics
             good={this.state.good}
             neutral={this.state.neutral}
@@ -21,9 +24,6 @@ export class App extends Component {
             total={3}
             positivePercentage={3}
           />
-        </Section>
-        <Section title="">
-          <FeedbackOptions options={3} onLeaveFeedback={3} />
         </Section>
       </>
     );
