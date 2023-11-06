@@ -19,18 +19,6 @@ export default class FeedbackOptions extends Component {
           </Button>
         ))}
       </div>
-
-      // <div className={css.options}>
-      //   <Button type="button" onClick={console.log}>
-      //     Good
-      //   </Button>
-      //   <Button type="button" onClick={console.log}>
-      //     Neutral
-      //   </Button>
-      //   <Button type="button" onClick={console.log}>
-      //     Bad
-      //   </Button>
-      // </div>
     );
   }
 }
